@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Assistant</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Left Side - Chat History -->
+    <div class="history-panel">
+      <div class="logo">
+        <h1>AI Assistant</h1>
+      </div>
+      <div id="historyBox"></div>
+    </div>
+
+    <!-- Right Side - Chat Area -->
+    <div class="chat-area">
+      <div class="chat-header">
+        <h2>Welcome to AI Assistant</h2>
+      </div>
+      <div class="chat-box" id="chatBox">
+        <div class="typing-indicator" id="typingIndicator">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="chat-input-container">
+        <input type="text" id="userInput" placeholder="Type your message..." autofocus>
+        <button id="sendBtn">Send</button> <!-- Ensure button has id="sendBtn" -->
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
